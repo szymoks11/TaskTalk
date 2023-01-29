@@ -1,0 +1,22 @@
+.btn-register{
+    height: 3rem;
+    width: 50%;
+    float: left;
+}
+.input-register {
+    display: flex;
+    height: 3rem;
+}
+.register-section{
+    float: left;
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+.img-logo{
+    padding-bottom: 10%;
+}
+
+.info{
+    font-size: 20px;
+}
+
