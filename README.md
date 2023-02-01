@@ -118,7 +118,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 ## Contact
 
 szymoks11 - [@szymon7271](https://twitter.com/szymon7271) - flisszymo@wp.pl <br>
-N3j00 - [@n3j00oo](https://twitter.com/n3j00oo) - nikodem.stach@outlook.com
+n3j00 - [@n3j00oo](https://twitter.com/n3j00oo) - nikodem.stach@outlook.com
 
 Project Link: [https://github.com/szymoks11/TaskTalk](https://github.com/szymoks11/TaskTalk)
 
