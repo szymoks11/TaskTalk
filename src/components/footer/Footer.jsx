@@ -7,8 +7,8 @@ const Footer = () => {
     <>
     <footer className="footersection bg-dark">
         <footer className='left-footer'>
-            <Facebook/> TaskTalk
-            <Instagram/> task_talk
+            <Facebook/> TaskTalk  
+            <Instagram/> task_talk 
             <Twitter/> @Task_talk
         </footer>
         <footer className='center'>

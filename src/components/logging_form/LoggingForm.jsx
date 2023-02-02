@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 import { Form, Container } from "react-bootstrap";
 import "./style_loginpage.css";
 import logo  from './logo.png';
@@ -28,7 +28,7 @@ const LoggingForm = () => {
           </Form.Group>
           </Form>
        <div class="cant_login">
-          <a href="forgot.html">Nie możesz się zalogować?</a>
+          <a href="/forgot">Nie możesz się zalogować?</a>
           <a id="register" href="/signup">Zarejestruj się</a>
        </div>
     </div>

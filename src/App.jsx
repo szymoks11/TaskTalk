@@ -6,7 +6,6 @@ import Signup from "./pages/signup/Signup";
 import Forgot from "./pages/forgot/Forgot";
 import Tables from "./pages/tables/Tables";
 
-
 const App = () => {
   return (
     <BrowserRouter>
