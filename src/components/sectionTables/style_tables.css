@@ -1,0 +1,28 @@
+.parent {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    }
+    
+.user_info { grid-area: 2 / 1 / 6 / 2; }
+.user_info {
+    background-color: #2596be;
+    border: 1px solid #2596be;
+    height: 200%;
+    width: 120%;
+    margin-left: -312px;
+    margin-top: -55px;
+    }
+#table_name {
+    border-bottom: 1px solid gray;
+}
+.user_info_inside{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+a:hover, a:visited, a:link, a:active
+{
+    text-decoration: none;
+}

@@ -5,6 +5,7 @@ import Login from "./pages/login/Login";
 import Signup from "./pages/signup/Signup";
 import Forgot from "./pages/forgot/Forgot";
 import Tables from "./pages/tables/Tables";
+import Test from "./pages/test/Test";
 
 const App = () => {
   return (
@@ -15,6 +16,7 @@ const App = () => {
         <Route path='/signup' element={<Signup/>}/>
         <Route path='/forgot' element={<Forgot/>}/>
         <Route path='/tables' element={<Tables/>}/>
+        <Route path='/test' element={<Test/>}/>
 
       </Routes>
     

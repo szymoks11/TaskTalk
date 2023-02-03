@@ -2,11 +2,12 @@ import React from 'react';
 import "./header.css"
 import logo  from './logo.png';
 import {Container, Nav, Navbar, NavDropdown, Button} from 'react-bootstrap';
-
+import NotificationsActiveIcon from '@mui/icons-material/NotificationsActive';
+import HelpOutlineIcon from '@mui/icons-material/HelpOutline';
 const Header_tables = () => {
   return (
     <Navbar  sticky="top" collapseOnSelect bg="dark" variant='dark' expand="lg">
-    <Container>
+    <div className='header'>
 
       <Navbar.Brand href="/"><img src={logo} alt='logo' width='30' height='30' className='d-inline-block align-top'/>   TaskTalk</Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -44,16 +45,15 @@ const Header_tables = () => {
         </Nav>
         <Button variant='primary' size='sm' className="btn-create">
         Utwórz
-        </Button>{/* onsubmit={funkcja} */}
-        
-        {/* <Nav>
-          <Nav.Link href='/login'>Zaloguj się</Nav.Link>
-          <Nav.Link href='/signup'>Zacznij korzystać z TaskTalk za darmo!</Nav.Link>
+        </Button>
+        <NotificationsActiveIcon/>
+        <HelpOutlineIcon/>
 
-        </Nav> */}
       </Navbar.Collapse>
-    </Container>
+    </div>
   </Navbar>
+
+  
   );
 };
 

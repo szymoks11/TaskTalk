@@ -1,6 +1,6 @@
 import React from 'react'
 import Header from '../../components/header/Header'
-import LoggingForm from '../../components/logging_form/LoggingForm'
+import LoggingForm from '../../components/loggingForm/LoggingForm'
 
 const Login = () => {
   return (
